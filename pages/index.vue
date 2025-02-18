@@ -180,7 +180,7 @@ onMounted(() => {
             </div>
             <div>
                 <Label>ID raqami</Label>
-                <Input :disabled="handleStatus === 'available'" v-mask="'AA-#######'" v-model="handle" />
+                <Input :disabled="handleStatus === 'available'" v-model="handle" />
             </div>
             <ClientOnly>
                 <Button v-if="handleStatus !== 'available'" @click="checkHandle">Kirish</Button>
