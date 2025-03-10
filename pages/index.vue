@@ -153,7 +153,7 @@ onMounted(() => {
                 <div class="rounded-full">
                     <LucideX />
                 </div>
-                <p>Siz institut hududida emassiz.</p>
+                <p>Siz ish joyida emassiz.</p>
             </div>
             <div v-if="status === 'cannot_get'" class="flex items-center gap-2 bg-red-500/10 text-red-500 border border-red-500 rounded-md p-1">
                 <div class="rounded-full">
